@@ -191,3 +191,36 @@ header nav ul li a:hover {
 .flex-row {
     display: flex;
 }
+
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    .hero-about, .hero-pfp {
+        width: 100%;
+    }
+
+    .hero-about {
+        text-align: center;
+    }
+
+    .section-title {
+        width: 80%;
+    }
+
+    .work {
+        flex: 0 70%;
+    }
+}
